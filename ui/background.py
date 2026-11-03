@@ -1,8 +1,4 @@
-"""Génère le fond « Aurore » (lueurs violette et menthe) et dessine les cartes dessus.
 
-Tkinter n'a ni dégradé, ni transparence, ni coins arrondis lissés : on dessine
-donc le fond ET les cartes dans une image Pillow, redimensionnée avec la fenêtre.
-"""
 from functools import lru_cache
 
 from PIL import Image, ImageDraw
